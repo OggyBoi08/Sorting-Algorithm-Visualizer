@@ -1,0 +1,688 @@
+# depslib dependency file v1.0
+1788098758 source:c:\users\asus\onedrive\c++ ki rangeen duniya\sdl graphics\sorting_visualizer\main.cpp
+	<iostream>
+	"render.h"
+	"update.h"
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_assert.h>
+	<SDL3/SDL_asyncio.h>
+	<SDL3/SDL_atomic.h>
+	<SDL3/SDL_audio.h>
+	<SDL3/SDL_bits.h>
+	<SDL3/SDL_blendmode.h>
+	<SDL3/SDL_camera.h>
+	<SDL3/SDL_clipboard.h>
+	<SDL3/SDL_cpuinfo.h>
+	<SDL3/SDL_dialog.h>
+	<SDL3/SDL_dlopennote.h>
+	<SDL3/SDL_endian.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_events.h>
+	<SDL3/SDL_filesystem.h>
+	<SDL3/SDL_gamepad.h>
+	<SDL3/SDL_gpu.h>
+	<SDL3/SDL_guid.h>
+	<SDL3/SDL_haptic.h>
+	<SDL3/SDL_hidapi.h>
+	<SDL3/SDL_hints.h>
+	<SDL3/SDL_init.h>
+	<SDL3/SDL_iostream.h>
+	<SDL3/SDL_joystick.h>
+	<SDL3/SDL_keyboard.h>
+	<SDL3/SDL_keycode.h>
+	<SDL3/SDL_loadso.h>
+	<SDL3/SDL_locale.h>
+	<SDL3/SDL_log.h>
+	<SDL3/SDL_messagebox.h>
+	<SDL3/SDL_metal.h>
+	<SDL3/SDL_misc.h>
+	<SDL3/SDL_mouse.h>
+	<SDL3/SDL_mutex.h>
+	<SDL3/SDL_pen.h>
+	<SDL3/SDL_pixels.h>
+	<SDL3/SDL_platform.h>
+	<SDL3/SDL_power.h>
+	<SDL3/SDL_process.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_rect.h>
+	<SDL3/SDL_render.h>
+	<SDL3/SDL_scancode.h>
+	<SDL3/SDL_sensor.h>
+	<SDL3/SDL_storage.h>
+	<SDL3/SDL_surface.h>
+	<SDL3/SDL_system.h>
+	<SDL3/SDL_thread.h>
+	<SDL3/SDL_time.h>
+	<SDL3/SDL_timer.h>
+	<SDL3/SDL_tray.h>
+	<SDL3/SDL_touch.h>
+	<SDL3/SDL_version.h>
+	<SDL3/SDL_video.h>
+	<SDL3/SDL_oldnames.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_stdinc.h
+	<SDL3/SDL_platform_defines.h>
+	<stdarg.h>
+	<string.h>
+	<wchar.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdbool.h>
+	<alloca.h>
+	<stdlib.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	<SDL3/SDL_begin_code.h>
+	<stdio.h>
+	<stdlib.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_platform_defines.h
+	<AvailabilityMacros.h>
+	<TargetConditionals.h>
+	<TargetConditionals.h>
+	<winapifamily.h>
+
+1758466060 c:\msys64\mingw64\include\winapifamily.h
+
+1758466060 c:\msys64\mingw64\include\stdarg.h
+	<_mingw_stdarg.h>
+
+1758466060 c:\msys64\mingw64\include\_mingw_stdarg.h
+	<vadefs.h>
+
+1758466060 c:\msys64\mingw64\include\vadefs.h
+	<_mingw.h>
+
+1758466060 c:\msys64\mingw64\include\_mingw.h
+	"_mingw_mac.h"
+	"_mingw_secapi.h"
+	"_cygwin.h"
+	<vadefs.h>
+	"sdks/_mingw_ddk.h"
+
+1758466060 c:\msys64\mingw64\include\_mingw_mac.h
+
+1758466060 c:\msys64\mingw64\include\_mingw_secapi.h
+
+1758466060 c:\msys64\mingw64\include\_cygwin.h
+	<stddef.h>
+
+1758466060 c:\msys64\mingw64\include\stddef.h
+	<crtdefs.h>
+
+1758466060 c:\msys64\mingw64\include\crtdefs.h
+	<corecrt.h>
+
+1758466060 c:\msys64\mingw64\include\corecrt.h
+	<_mingw.h>
+	<winapifamily.h>
+
+1758466060 c:\msys64\mingw64\include\sdks\_mingw_ddk.h
+
+1758466060 c:\msys64\mingw64\include\stdint.h
+	<crtdefs.h>
+	<stddef.h>
+
+1758466060 c:\msys64\mingw64\include\string.h
+	<crtdefs.h>
+	<sec_api/string_s.h>
+
+1758466060 c:\msys64\mingw64\include\sec_api\string_s.h
+	<string.h>
+
+1758466060 c:\msys64\mingw64\include\wchar.h
+	<corecrt.h>
+	<corecrt_stdio_config.h>
+	<corecrt_wstdlib.h>
+	<corecrt_wctype.h>
+	<_mingw_off_t.h>
+	<_mingw_stat64.h>
+	<swprintf.inl>
+	<sec_api/wchar_s.h>
+
+1758466060 c:\msys64\mingw64\include\corecrt_stdio_config.h
+	<corecrt.h>
+
+1758466060 c:\msys64\mingw64\include\corecrt_wstdlib.h
+	<corecrt.h>
+
+1758466060 c:\msys64\mingw64\include\corecrt_wctype.h
+	<corecrt.h>
+
+1758466060 c:\msys64\mingw64\include\_mingw_off_t.h
+
+1758466060 c:\msys64\mingw64\include\_mingw_stat64.h
+
+1758466060 c:\msys64\mingw64\include\swprintf.inl
+
+1758466060 c:\msys64\mingw64\include\sec_api\wchar_s.h
+	<wchar.h>
+
+1758466060 c:\msys64\mingw64\include\inttypes.h
+	<crtdefs.h>
+	<stdint.h>
+	<stddef.h>
+
+1758466060 c:\msys64\mingw64\include\stdlib.h
+	<corecrt.h>
+	<corecrt_wstdlib.h>
+	<limits.h>
+	<sec_api/stdlib_s.h>
+	<malloc.h>
+
+1758466060 c:\msys64\mingw64\include\limits.h
+	<crtdefs.h>
+
+1758466060 c:\msys64\mingw64\include\sec_api\stdlib_s.h
+	<stdlib.h>
+
+1758466060 c:\msys64\mingw64\include\malloc.h
+	<crtdefs.h>
+	<mm_malloc.h>
+
+1758466060 c:\msys64\mingw64\include\sal.h
+	<concurrencysal.h>
+
+1758466060 c:\msys64\mingw64\include\concurrencysal.h
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_begin_code.h
+
+1758466060 c:\msys64\mingw64\include\stdio.h
+	<corecrt_stdio_config.h>
+	<_mingw_off_t.h>
+	<swprintf.inl>
+	<sec_api/stdio_s.h>
+
+1758466060 c:\msys64\mingw64\include\sec_api\stdio_s.h
+	<stdio.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_close_code.h
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_assert.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_begin_code.h>
+	<intrin.h>
+	<signal.h>
+	<SDL3/SDL_close_code.h>
+
+1758466060 c:\msys64\mingw64\include\assert.h
+	<crtdefs.h>
+	<stdlib.h>
+
+1758466060 c:\msys64\mingw64\include\signal.h
+	<crtdefs.h>
+	<pthread_signal.h>
+
+1758466668 c:\msys64\mingw64\include\pthread_signal.h
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_asyncio.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_atomic.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_platform_defines.h>
+	<SDL3/SDL_begin_code.h>
+	<arm64intr.h>
+	<mbarrier.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_audio.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_endian.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_mutex.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_iostream.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_endian.h
+	<SDL3/SDL_stdinc.h>
+	<intrin.h>
+	<endian.h>
+	<sys/byteorder.h>
+	<endian.h>
+	<sys/endian.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1758466060 c:\msys64\mingw64\include\intrin.h
+	<crtdefs.h>
+	<setjmp.h>
+	<stddef.h>
+	<psdk_inc/intrin-impl.h>
+	<stdlib.h>
+	<errno.h>
+	<malloc.h>
+	<x86intrin.h>
+	<cpuid.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+
+1758466060 c:\msys64\mingw64\include\setjmp.h
+	<crtdefs.h>
+
+1758466060 c:\msys64\mingw64\include\psdk_inc\intrin-impl.h
+	<intrin.h>
+	<psdk_inc/intrin-impl.h>
+
+1758466060 c:\msys64\mingw64\include\errno.h
+	<crtdefs.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_error.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_mutex.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_atomic.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_thread.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_thread.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_atomic.h>
+	<process.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_properties.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1758466060 c:\msys64\mingw64\include\process.h
+	<crtdefs.h>
+	<corecrt_startup.h>
+	<sys/types.h>
+
+1758466060 c:\msys64\mingw64\include\corecrt_startup.h
+	<corecrt.h>
+
+1758466060 c:\msys64\mingw64\include\sys\types.h
+	<crtdefs.h>
+	<_mingw_off_t.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_iostream.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_bits.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_blendmode.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_camera.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_pixels.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_surface.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_pixels.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_endian.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_surface.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_blendmode.h>
+	<SDL3/SDL_pixels.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_rect.h>
+	<SDL3/SDL_iostream.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_rect.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_clipboard.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_cpuinfo.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_dialog.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_video.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_video.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_pixels.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_rect.h>
+	<SDL3/SDL_surface.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_events.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_audio.h>
+	<SDL3/SDL_camera.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_gamepad.h>
+	<SDL3/SDL_joystick.h>
+	<SDL3/SDL_keyboard.h>
+	<SDL3/SDL_keycode.h>
+	<SDL3/SDL_mouse.h>
+	<SDL3/SDL_pen.h>
+	<SDL3/SDL_power.h>
+	<SDL3/SDL_sensor.h>
+	<SDL3/SDL_scancode.h>
+	<SDL3/SDL_touch.h>
+	<SDL3/SDL_video.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_gamepad.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_guid.h>
+	<SDL3/SDL_iostream.h>
+	<SDL3/SDL_joystick.h>
+	<SDL3/SDL_power.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_sensor.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_guid.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_joystick.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_guid.h>
+	<SDL3/SDL_mutex.h>
+	<SDL3/SDL_power.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_sensor.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_power.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_sensor.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_keyboard.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_keycode.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_rect.h>
+	<SDL3/SDL_scancode.h>
+	<SDL3/SDL_video.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_keycode.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_scancode.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_scancode.h
+	<SDL3/SDL_stdinc.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_mouse.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_surface.h>
+	<SDL3/SDL_video.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_pen.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_mouse.h>
+	<SDL3/SDL_touch.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_touch.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_mouse.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_filesystem.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_gpu.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_pixels.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_rect.h>
+	<SDL3/SDL_surface.h>
+	<SDL3/SDL_video.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_haptic.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_joystick.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_hidapi.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_hints.h
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_init.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_events.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_loadso.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_locale.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_log.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_messagebox.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_video.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_metal.h
+	<SDL3/SDL_video.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_misc.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_platform.h
+	<SDL3/SDL_platform_defines.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_process.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_iostream.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_render.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_blendmode.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_events.h>
+	<SDL3/SDL_pixels.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_rect.h>
+	<SDL3/SDL_surface.h>
+	<SDL3/SDL_video.h>
+	<SDL3/SDL_gpu.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_storage.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_filesystem.h>
+	<SDL3/SDL_properties.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_system.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_keyboard.h>
+	<SDL3/SDL_video.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_time.h
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_timer.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_tray.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_error.h>
+	<SDL3/SDL_surface.h>
+	<SDL3/SDL_video.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_version.h
+	<SDL3/SDL_stdinc.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_oldnames.h
+	<SDL3/SDL_platform_defines.h>
+
+1777910424 c:\msys64\mingw64\include\sdl3_image\sdl_image.h
+	<SDL3/SDL.h>
+	<SDL3/SDL_begin_code.h>
+	<SDL3/SDL_close_code.h>
+
+1785842900 c:\msys64\mingw64\include\sdl3\sdl_dlopennote.h
+	<SDL3/SDL_stdinc.h>
+
+1786904064 source:c:\users\asus\onedrive\c++ ki rangeen duniya\sdl graphics\sorting_visualizer\utility.cpp
+	"utility.h"
+	<stdexcept>
+
+1787075045 c:\users\asus\onedrive\c++ ki rangeen duniya\sdl graphics\sorting_visualizer\utility.h
+	<string>
+
+1787484494 c:\users\asus\onedrive\c++ ki rangeen duniya\sdl graphics\sorting_visualizer\render.h
+	<string>
+	<cstdint>
+	<vector>
+
+1787488012 source:c:\users\asus\onedrive\c++ ki rangeen duniya\sdl graphics\sorting_visualizer\render.cpp
+	<cstdint>
+	<string>
+	<vector>
+	<algorithm>
+	"utility.h"
+	"render.h"
+	<SDL3/SDL.h>
+	<SDL3_image/SDL_image.h>
+
+1788110201 source:c:\users\asus\onedrive\c++ ki rangeen duniya\sdl graphics\sorting_visualizer\update.cpp
+	"update.h"
+	<iostream>
+
+1788098736 c:\users\asus\onedrive\c++ ki rangeen duniya\sdl graphics\sorting_visualizer\update.h
+	<vector>
+	"render.h"
+	"string.h"
+
