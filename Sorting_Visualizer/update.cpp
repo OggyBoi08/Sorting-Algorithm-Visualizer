@@ -193,28 +193,37 @@ void shell_sort_step(SortState& state)
 {
     int n = static_cast<int>(state.arr.size());
 
+    // Continue shifting elements backwards
     if (state.j >= 0 && state.arr[state.j] > state.key)
     {
         state.arr[state.j + state.gap] = state.arr[state.j];
-        state.j-=state.gap;
+        state.j -= state.gap;
     }
     else
     {
+        // Put key into its correct position
         state.arr[state.j + state.gap] = state.key;
-        state.i+=state.gap;
 
-        if (state.i<n)
+        // Move to the next element
+        state.i += state.gap;
+
+        if (state.i < n)
         {
+            // Start insertion of the next element
             state.key = state.arr[state.i];
-            state.j = state.i-state.gap;
+            state.j = state.i - state.gap;
         }
         else
         {
-            state.gap/=2;
+            // Current gap is completely sorted
+            state.gap /= 2;
 
-            if (state.gap>0)
+            if (state.gap > 0)
             {
+                // Start a new gapped insertion sort
                 state.i = state.gap;
+                state.key = state.arr[state.i];
+                state.j = state.i - state.gap;
             }
             else
             {
@@ -222,7 +231,6 @@ void shell_sort_step(SortState& state)
             }
         }
     }
-    std::cout<<state.i<<" "<<state.j<<" "<<state.gap<<"\n";
 }
 
 SortState CreateShellSortState(const std::vector<int>& arr)
