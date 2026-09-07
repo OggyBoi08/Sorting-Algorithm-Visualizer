@@ -193,6 +193,9 @@ void shell_sort_step(SortState& state)
 {
     int n = static_cast<int>(state.arr.size());
 
+    if (state.gap==1)
+        state.sorted[std::min(n-1,state.i)]=true;
+
     // Continue shifting elements backwards
     if (state.j >= 0 && state.arr[state.j] > state.key)
     {

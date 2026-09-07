@@ -29,7 +29,9 @@ int main()
     65, 38, 64, 91, 46, 75, 25, 15, 32, 99, 24, 28, 43, 33, 57, 67,
     85, 21, 100, 74, 34, 92, 35, 53, 96, 3, 18, 95, 12, 45, 22, 77,
     60, 97, 79, 11, 39, 1, 26, 70, 50, 63};
-    SortState state = CreateShellSortState(arr);
+    SortState state = CreateInsertionSortState(arr);
+    AnimationState animation;
+    float animation_speed = 0.5f;
     std::string colour1 = "#FF0000";   //unsorted colour
     std::string colour2 = "#00FF00";   //sorted colour
     std::string colour3 = "#0000FF";   //focus element colour
@@ -43,16 +45,26 @@ int main()
         renderer.clearBG("#000000");
 
         //update
-        shell_sort_step(state);
+        insertion_sort_step(state);
 
         //draw
         if (!state.finished)
         {
             renderer.draw_array(bound, state.arr, colour1, colour2, colour3, true, state.sorted, state.j);
         }
+        else if (animation.active)
+        {
+            renderer.draw_animation_state(bound, state.arr, colour3, colour1, animation);
+            animation.progress+=animation_speed;
+            if (animation.progress>=1.0f)
+            {
+                animation.progress=0.0f;
+                animation.current_bar++;
+            }
+        }
         else
         {
-            renderer.draw_sorted_graph(bound, arr.size(), colour2);
+            renderer.draw_sorted_graph(bound, static_cast<int>(arr.size()), colour2);
         }
 
 

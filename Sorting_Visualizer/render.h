@@ -19,6 +19,13 @@ struct Rectangle
     float x,y,w,h;
 };
 
+struct AnimationState
+{
+    int current_bar = 0;
+    float progress = 0.0f;
+    bool active = true;
+};
+
 class Renderer
 {
 public:
@@ -45,6 +52,11 @@ public:
                           bool fill_solid = false,
                           const std::vector<bool>& sorted = {},
                           int cur_j = -1);
+    void draw_animation_state(Bounds bound,
+                                    const std::vector<int>& arr,
+                                    const std::string& start_color,
+                                    const std::string& end_color,
+                                    AnimationState& state);
 };
 
 
