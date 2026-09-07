@@ -136,3 +136,41 @@ void Renderer::draw_array(Bounds bound,
     }
 }
 
+void Renderer::draw_animation_state(Bounds bound,
+                                    const std::vector<int>& arr,
+                                    const std::string& start_color,
+                                    const std::string& end_color,
+                                    AnimationState& state)
+{
+    if (arr.empty())
+        return;
+    Colour color1 = hexToColour(start_color);
+    Colour color2 = hexToColour(end_color);
+
+    int max_num = *std::max_element(arr.begin(), arr.end());
+    int n = static_cast<int>(arr.size());
+
+    if (state.current_bar == n-1)
+        state.active = false;
+
+    float width_chunk = bound.window_w/static_cast<float>(n);
+    float height_chunk = bound.window_h/static_cast<float>(n);
+
+    for (int i=0; i<state.current_bar && i<n; i++)
+    {
+        float x = i*width_chunk;
+        float height = arr[i] * height_chunk;
+        float y = bound.window_h - height;
+
+        float t = (i==state.current_bar)? state.progress : 1.0f;
+
+        Uint8 r = color1.r + (color2.r - color1.r) * t;
+        Uint8 g = color1.g + (color2.g - color1.g) * t;
+        Uint8 b = color1.b + (color2.b - color1.b) * t;
+
+        SDL_SetRenderDrawColor(renderer, r, g, b, 255);
+        SDL_FRect rect = {x,y,width_chunk,height};
+        SDL_RenderFillRect(renderer, &rect);
+    }
+}
+
